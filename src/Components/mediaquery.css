@@ -1,0 +1,83 @@
+
+
+/* Media Quires */
+@media (min-width:320px) {
+
+    #Naber h1 {
+        padding-left: 16px;
+    }
+
+    #Nav_row {
+        margin-top: 60px;
+        padding-left: 30px;
+    }
+
+    #Nav_row span {
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    #Nav_row p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    #Naber h1 {
+        padding-left: 36px;
+    }
+
+    #Naber i {
+        margin-right: 40px;
+    }
+
+    #Nav_row {
+        margin-top: 180px;
+        padding: 0;
+    }
+
+    #Nav_row span {
+        font-size: 40px;
+        margin: 0px;
+
+    }
+
+    #Nav_row p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:768px) {
+    #Naber h1 {
+        margin-left: 64px;
+    }
+}
+
+@media (min-width:992px) {
+    #Naber h1 {
+        margin-left: 120px;
+    }
+}
+
+@media (min-width:1200px) {
+    #Naber h1 {
+        margin-left: 160px;
+    }
+
+    #Naber i {
+        margin-right: 180px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #Naber h1 {
+        margin-left: 206px;
+    }
+
+    #padding_left,
+    #Traning,
+    #Inspiration_container {
+        padding-left: 12rem;
+    }
+}
